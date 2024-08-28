@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4; 
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(135deg, #ff69b4, #ffc0cb);
+    color: white;
+    padding: 10px 20px;
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(201, 187, 187);
+}
+
+.container h1{
+    font-size : 25px;
+}
+
+
+.main .container .special-paragraph {
+    color: rgb(201, 111, 111);
+    font-size: 20px;
+}
+
+.main-menu {
+    list-style: none;
+    background: #333;
+    text-align: center;
+}
+
+.main-menu li {
+    display: inline;
+    font-size: 20px;
+}
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.main-menu a:hover {
+    background: #50b3a2;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    color: rgba(10, 26, 134, 0.75);
+    font-size: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.destination aside {
+    width: 300px; 
+    padding: 5px; 
+}
+
+aside {
+    width: 500px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgb(201, 187, 187);
+}
+
+aside h2 {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside li {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #a74141;
+}
+
+.highlights h2 {
+    margin-top:20px;
+    font-size: large;
+    color: #333;
+}
+
+.highlights h3 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+.highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+#history-and-culture h2, 
+#history-and-culture p {
+    color: green;
+    background: rgb(228, 220, 220);
+    font-style: italic;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight-photo {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: rgb(229, 213, 222);
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer-links, .social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: rgb(167, 105, 214);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: blueviolet;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: yellowgreen;
+}
+
+.copyright {
+    text-transform: capitalize;
+    color: #5e6282;
+    font-size: 0.88889rem;
+}

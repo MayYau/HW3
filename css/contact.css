@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(135deg, #ff69b4, #ffc0cb);
+  color: white;
+  padding: 10px 20px;
+  font-size: 28px;
+  text-align: center;
+  font-style: italic;
+}
+
+.main-menu {
+  list-style: none;
+  background: #333;
+  text-align: center;
+}
+
+.main-menu li {
+  display: inline;
+  font-size: 20px;
+}
+
+.main-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.main-menu a:hover {
+  background: #50b3a2;
+}
+
+.customer-service, .service-center {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.customer-service p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #c2185b;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service-center {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.service-center h2, .service-center h3 {
+  margin-top: 20px;
+}
+
+.service-center p {
+  margin: 10px 0;
+}
+
+.footer {
+  background: rgb(229, 213, 222);
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer-links, .social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: rgb(167, 105, 214);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: blueviolet;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: yellowgreen;
+}
+
+.copyright {
+  text-transform: capitalize;
+  color: #5e6282;
+  font-size: 0.88889rem;
+}
